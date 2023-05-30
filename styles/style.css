@@ -80,6 +80,7 @@ footer {
 
 .card {
     background-color: var(--coolColor);
+    height: 600px;
 }
 
 .card p {
@@ -94,4 +95,8 @@ footer {
 .price {
     text-align: center;
     font-weight: bold;
+}
+
+.cpic {
+    height: 300px !important;
 }

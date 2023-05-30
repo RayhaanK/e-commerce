@@ -36,7 +36,7 @@ products.forEach((data) => {
   <h4 class="display-4 text-light text-center">${data.name}</h4>
   <img
   src="${data.image}"
-  class="card-img-top"
+  class="card-img-top cpic"
   alt="..."
 />
   <div class="card-body">
