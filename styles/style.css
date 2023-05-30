@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img[alt="Logo"] {
+  width: 8rem;
+}
+
+body {
+  background-color: var(--alternative);
+  height: 100vh;
+}
+
+/* custom variables */
+:root {
+  --primary: rgb(0, 0, 0);
+  --secondary: white;
+  --alternative: rgba(73, 69, 120, 1);
+  --awesomeColor: rgba(113, 16, 70, 1);
+  --coolColor: rgba(38, 15, 25, 1);
+  --mainBox-shadow: -8px -3px 23px 5px rgba(38, 15, 25, 1);
+}
+
+#home {
+  position: relative;
+  background-image: url(https://i.postimg.cc/FKTygZng/lorenzo-herrera-p0j-m-E6m-Go4-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* navbar */
+.navbar {
+  background: rgb(73, 69, 120);
+  background: linear-gradient(
+    183deg,
+    rgba(73, 69, 120, 1) 1%,
+    rgba(113, 16, 70, 1) 60%,
+    rgba(38, 15, 25, 1) 94%
+  );
+}
+
+img[alt="Xbox console"] {
+  height: 35rem;
+  background-size: cover;
+}
+
+.carousel {
+  outline: 5px solid var(--coolColor);
+}
+.heading {
+  position: relative;
+  top: 2rem;
+}
+
+.display-1 {
+  text-shadow: 4px 4px var(--awesomeColor);
+}
+
+span {
+  font-weight: bold;
+}
+
+/* .button {
+    position: absolute;
+    left: 40rem;
+    top: 15rem;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+} */
+
+footer {
+  margin-top: auto;
+  background-color: var(--coolColor);
+  text-align: center;
+  color: white;
+}
