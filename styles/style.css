@@ -58,7 +58,7 @@ img[alt="Xbox console"] {
   text-shadow: 4px 4px var(--awesomeColor);
 }
 
-span {
+.bold {
   font-weight: bold;
 }
 
@@ -67,4 +67,31 @@ footer {
   background-color: var(--coolColor);
   text-align: center;
   color: white;
+}
+
+/* Products */
+
+#products {
+    position: relative;
+  background-image: url(https://i.postimg.cc/9X7jWr3m/carl-raw-m3hn2-Kn5-Bns-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.card {
+    background-color: var(--coolColor);
+}
+
+.card p {
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
 }
