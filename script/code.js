@@ -1,3 +1,4 @@
+// Products Page
 let products = [
   {
     id: 1,
@@ -26,21 +27,48 @@ let products = [
       "Enjoy the home console gaming experience, without access to a TV. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.",
     price: "8,999ZAR",
   },
+  {
+    id: 4,
+    name: "Nintendo Switch",
+    image: "https://i.postimg.cc/LX0gtTR1/tobiah-ens-b-Hnbq-JBTw-Ls-unsplash.jpg",
+    subtitle: "Switch and Play",
+    description:
+      "Enjoy the home console gaming experience, without access to a TV. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.",
+    price: "8,999ZAR",
+  },
+  {
+    id: 5,
+    name: "Nintendo Switch",
+    image: "https://i.postimg.cc/LX0gtTR1/tobiah-ens-b-Hnbq-JBTw-Ls-unsplash.jpg",
+    subtitle: "Switch and Play",
+    description:
+      "Enjoy the home console gaming experience, without access to a TV. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.",
+    price: "8,999ZAR",
+  },
+  {
+    id: 6,
+    name: "Nintendo Switch",
+    image: "https://i.postimg.cc/LX0gtTR1/tobiah-ens-b-Hnbq-JBTw-Ls-unsplash.jpg",
+    subtitle: "Switch and Play",
+    description:
+      "Enjoy the home console gaming experience, without access to a TV. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.",
+    price: "8,999ZAR",
+  },
 ];
 
 let divProduct = document.querySelector(".items");
 products.forEach((data) => {
   divProduct.innerHTML += `
-  <div class="col-4">
+  <div class="col ms-sm-0 mt-4">
   <div class="card">
-  <h4 class="display-4 text-light text-center">${data.name}</h4>
+  <h4 class="display-5 text-light text-center titleC">${data.name}</h4>
   <img
   src="${data.image}"
-  class="card-img-top cpic"
+  class="card-img-top img-fluid cpic"
   alt="..."
 />
   <div class="card-body">
-        <p class="card-text text-white">
+        <p class="card-text text-white descC">
         ${data.subtitle} <br>
         "${data.description}"
             </p>

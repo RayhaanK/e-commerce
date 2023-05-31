@@ -72,15 +72,22 @@ footer {
 /* Products */
 
 #products {
-    position: relative;
+  position: relative;
   background-image: url(https://i.postimg.cc/9X7jWr3m/carl-raw-m3hn2-Kn5-Bns-unsplash.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 200vh;
 }
 
 .card {
     background-color: var(--coolColor);
-    height: 600px;
+    height: 550px;
+    max-width: 348px;
+}
+
+.cpic {
+  max-height: 12.5rem;
+  max-width: 25.68rem;
+  background-size: cover !important;
 }
 
 .card p {
@@ -97,6 +104,19 @@ footer {
     font-weight: bold;
 }
 
-.cpic {
-    height: 300px !important;
+.descC {
+  height: 200px;
+}
+
+@media screen and (max-width:1200px){
+  .display-5 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width:576px){
+  .col {
+    display: flex;
+    justify-content: center !important;
+  }
 }
