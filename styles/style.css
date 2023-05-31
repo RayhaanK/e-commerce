@@ -108,6 +108,49 @@ footer {
   height: 200px;
 }
 
+/* Contact */
+#contact {
+  position: relative;
+  background-image: url(https://i.postimg.cc/Twd0qhsy/ben-neale-zpx-Kd-H-x-NSI-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  width: 70%;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.butn {
+  padding: 0.5rem;
+  width: 10rem;
+  margin-right: 5rem;
+}
+
+.butn:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+#products {
+  /* height: 590vh; */
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width:1200px){
   .display-5 {
     font-size: 2rem !important;
@@ -119,4 +162,5 @@ footer {
     display: flex;
     justify-content: center !important;
   }
+
 }
