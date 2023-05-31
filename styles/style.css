@@ -58,7 +58,7 @@ img[alt="Xbox console"] {
   text-shadow: 4px 4px var(--awesomeColor);
 }
 
-span {
+.bold {
   font-weight: bold;
 }
 
@@ -67,4 +67,56 @@ footer {
   background-color: var(--coolColor);
   text-align: center;
   color: white;
+}
+
+/* Products */
+
+#products {
+  position: relative;
+  background-image: url(https://i.postimg.cc/9X7jWr3m/carl-raw-m3hn2-Kn5-Bns-unsplash.jpg);
+  background-size: cover;
+  height: 200vh;
+}
+
+.card {
+    background-color: var(--coolColor);
+    height: 550px;
+    max-width: 348px;
+}
+
+.cpic {
+  max-height: 12.5rem;
+  max-width: 25.68rem;
+  background-size: cover !important;
+}
+
+.card p {
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.descC {
+  height: 200px;
+}
+
+@media screen and (max-width:1200px){
+  .display-5 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width:576px){
+  .col {
+    display: flex;
+    justify-content: center !important;
+  }
 }
